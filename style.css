@@ -1,0 +1,15 @@
+a {text-decoration:none; color:black;}
+#grid ul{border-right:1px solid gray; width:95px;margin:0;
+padding-top:25px;}
+h1{font-size:50px; border-bottom: 1px solid gray;
+text-align:center; padding:30px; margin:0;}
+#grid{display:grid; grid-template-columns:150px 1fr; }
+body{margin:0;}
+@media(max-width:700px){
+  #grid{display:block;} h1{border-bottom:none;}
+  #grid ul{border-right:none;}
+  }
+.saw{color:gray;}
+#active{color:red;}
+img{padding:20px;}
+iframe{padding:20px;}
